@@ -1,20 +1,31 @@
 <!DOCTYPE html>
 <html lang="es">
   <head>
-
+    <title>Página de prueba Html y Css</title>
   </head>
   <body>
    <h2>AppDeGatos o no ?</h2>
    <main>
-    <h3>imágenes de Gatos y otros:</h3>
+    <!--Apartado gatos-->
+    <h3>Imágenes de Gatos y otros:</h3>
     <!-- TODO: Agregar enlaces a imágenes de gatos -->
     <p>Haz click en la foto del michi para ver mas imágenes de gatos.</p>
     <a href="https://www.freepik.es/fotos-vectores-gratis/gatos" target="_blank" rel="noopener noreferrer"><img src="https://img.freepik.com/fotos-premium/gato-cachorro_87414-1136.jpg?size=626&ext=jpg" alt="Un lindo gato blanco levantando la pata"></a>
 
-    <h4>Te gustan los gatos ? ?</h4>
-    <form action="/enviar-respuesta">
-      <label for="interior"><input id="interior" type="radio" name="eleccion">Si</label>
-      <label for="Exterior"><input id="Exterior" type="radio" name="eleccion">No</label>
+    <div>
+      <!--Formulario de radio sobre gatos-->
+      <h4>Te gustan los gatos ? ?</h4>
+      <form action="/enviar-respuesta">
+        <label for="interior">
+          <input id="interior" type="radio" value="me gustan" name="eleccion"checked>Si
+        </label>
+        <br>
+        <label for="Exterior">
+          <input id="Exterior" type="radio"
+        value="no me gustan" name="eleccion">No
+      </label>
+    </div>
+
     <hr>
 
     <h3>Lista</h3>
@@ -28,6 +39,7 @@
 
     <hr>
 
+    <!--Apartado Virgoland-->
     <h3>Server Virgoland</h3>
     <img src="img/horoscopo-virgo.jpg" alt="Foto de Virgoland">
     <p><em>Integrantes de Virgoland</em></p>
@@ -39,16 +51,35 @@
 
     <hr>
 
-    <h3><em>La Informacion vista resulto interesante ?</em></h3>
-    <form action="/enviar-respuesta">
-      <input type="texte" placeholder="Escribe tu respuesta!" required>
-      <button type="sumbit">enviar</button>
-    </form>
+    <div>
+      <!--formulario tipo texto-->
+      <h3><em>La Informacion vista resulto interesante ?</em></h3>
+      <form action="/enviar-respuesta">
 
-    <hr>
-
-    <p>Mi cuenta de <a href="https://github.com/CabizBajo/prueba-HtmlYCss" target="_blank" rel="noopener noreferrer"> GitHub</a></p>
+        <!--Casillas de Verificación-->
+        <label for="Si">
+          <input id="Si" type="checkbox" value="si interesa" name="gustos" checked>Si
+        </label>
+        <label for="No">
+          <input id="No" type="checkbox" value="no interesa" name="gustos">No
+        </label>
+        <label for="Algo">
+          <input id="Algo" type="checkbox" value="Algo interesa" name="gustos">Aprendí algo
+        </label>
+        <br>
+        <!--barra de escritura y Botón "enviar"-->
+        <p>Otra respuesta</p>
+        <input type="texte" placeholder="Escribe tu respuesta!" required>
+        <button type="sumbit">enviar</button>
+      </form>
+    </div>
     <!-- TODO:  Ajustar tamaño de las fotos -->
    </main>
+
+   <hr>
+
+   <footer>
+    <p><small>Mi cuenta de <a href="https://github.com/CabizBajo/prueba-HtmlYCss" target="_blank" rel="noopener noreferrer"> GitHub</a></small></p>
+   </footer>
   </body>
 </html>
