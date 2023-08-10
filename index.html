@@ -2,18 +2,25 @@
 <html lang="es">
   <head>
     <title>Página de prueba Html y Css</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Lugrasimo&display=swap" rel="stylesheet">
     <link href="style.css" rel="stylesheet">
   </head>
   <body>
    <h2>AppDeGatos o no ?</h2>
    <main>
-    <!--Apartado gatos-->
-    <h3>Imágenes de Gatos y otros:</h3>
-    <!-- TODO: Agregar enlaces a imágenes de gatos -->
-    <p>Haz click en la foto del michi para ver mas imágenes de gatos.</p>
-    <a href="https://www.freepik.es/fotos-vectores-gratis/gatos" target="_blank" rel="noopener noreferrer"><img src="https://img.freepik.com/fotos-premium/gato-cachorro_87414-1136.jpg?size=626&ext=jpg" alt="Un lindo gato blanco levantando la pata"></a>
-
     <div>
+      <!--Apartado gatos-->
+      <h3>Imágenes de Gatos y otros:</h3>
+      <!-- TODO: Agregar enlaces a imágenes de gatos -->
+      <p>Haz click en la foto del michi para ver mas imágenes de gatos.</p>
+    </div> 
+    <div id="gato-1" >  
+      <a href="https://www.freepik.es/fotos-vectores-gratis/gatos" target="_blank" rel="noopener noreferrer"><img src="https://img.freepik.com/fotos-premium/gato-cachorro_87414-1136.jpg?size=626&ext=jpg" id="gato-2" alt="Un lindo gato blanco levantando la pata"></a>
+    </div>
+
+    <div class="pregunta-gatos">
       <!--Formulario de radio sobre gatos-->
       <h4>Te gustan los gatos ? ?</h4>
       <form action="/enviar-respuesta">
@@ -29,27 +36,30 @@
 
     <hr>
 
-    <h3>Lista</h3>
-    <p>Cosas que los <strong>gatos</strong> aman:</p>
-    <ul>
-      <li>Mimos</li>
-      <li>Comida</li>
-      <li>Jugar</li>
-    </ul>
-    <img src="https://www.hogarmania.com/archivos/201806/mascotas-gatos-pelo-largo-verano-668x400x80xX.jpg" alt="Gato recibiendo mimos">
+    <div>
+      <h3>Lista</h3>
+      <p>Cosas que los <strong>gatos</strong> aman:</p>
+      <ul id="gatos-aman">
+        <li>Mimos</li>
+        <li>Comida</li>
+        <li>Jugar</li>
+      </ul>
+      <img src="https://www.hogarmania.com/archivos/201806/mascotas-gatos-pelo-largo-verano-668x400x80xX.jpg" class="imagen-de-gato" alt="Gato recibiendo mimos">
+    </div>
 
     <hr>
 
-    <!--Apartado Virgoland-->
-    <h3>Server Virgoland</h3>
-    <img src="img/horoscopo-virgo.jpg" alt="Foto de Virgoland">
-    <p><em>Integrantes de Virgoland</em></p>
-    <ol>
-      <li>M4nu0K</li>
-      <li>Bananon150</li>
-      <li><s>Rubén</s> (en forma mob)</li>
-    </ol>
-
+    <div>
+      <!--Apartado Virgoland-->
+      <h3>Server Virgoland</h3>
+      <img src="img/horoscopo-virgo.jpg" id="Virgo" alt="Foto de Virgoland">
+      <p><em>Integrantes de Virgoland</em></p>
+      <ol id="integran">
+        <li>M4nu0K</li>
+        <li>Bananon150</li>
+        <li><s>Rubén</s> (en forma mob)</li>
+      </ol>
+    </div>
     <hr>
 
     <div>

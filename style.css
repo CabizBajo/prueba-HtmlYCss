@@ -1,4 +1,42 @@
-li {
-  color:blue;
-  font-size: 20px;
+h2 {
+  font-family: 'Lugrasimo', cursive;
+  font-size: 50px;
+  color:blueviolet;
 }
+h3 {
+  font-family: 'Caveat', cursive;
+  font-size: 35px;
+  color:chocolate;
+}
+#gato-1{
+  background-color:crimson;
+}
+#gato-2{
+  padding: 20px 15px 5px 10px;
+  background-color:purple;
+  border-width: 15px;
+  border-color:black;
+  border-style:groove;
+}
+.imagen-de-gato {
+  width: 450px;
+  border-width: 7px;
+  border-color:darkkhaki;
+  border-style: solid;
+  border-radius: 10%;
+}
+#Virgo {
+  width: 600px;
+  border-width: 5px;
+  border-color:darkgray;
+  border-style: solid;
+  border-radius: 50%;
+}
+.pregunta-gatos {
+  background-color:powderblue;
+}
+#gatos-aman {
+  font-size: 17px;
+  color:cornflowerblue;
+  font-family: Arial, Arial, Helvetica, sans-serif;
+  }
