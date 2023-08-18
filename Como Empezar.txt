@@ -1,0 +1,4 @@
+Pasos a segir :
+1) Imagir e ilustrar, fisica o digitalmente, un boceto de la pagina web .
+2) Abrir Visual Estudio Code (desde la terminal con "code ." .
+3) En VSC crear un archivo "index.html" y en la primera linea insertar "!" (signo de exclamasion).
