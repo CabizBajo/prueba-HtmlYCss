@@ -2,6 +2,10 @@
     box-sizing: border-box;
 }
 
+html{
+   scroll-behavior: smooth;
+}
+
 body{
     font-family: 'Roboto',sans-serif;
     margin: 0;
@@ -27,4 +31,179 @@ button{
 
 button:hover{
     background-color: rgb(112, 40, 180);
+}
+
+.container{
+    max-width: 1400px;
+    margin: auto;
+}
+
+.color-acento{color:blueviolet}
+
+header{
+    background-color:rgb(240,240,240)
+}
+
+header .logo{
+    margin: 0;
+    padding: 25px 30px;
+    font-weight: bold;
+    color:blueviolet;
+    font-size: 1.6em;
+}
+
+header .container{
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+}
+
+header nav{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+header a{
+    padding: 5px 12px;
+    text-decoration:none;
+    font-weight:bold;
+    color:black
+}
+
+header a:hover{
+    color: blueviolet;
+}
+
+#hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 90vh;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url(img/gamerzone.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+#hero h1{
+    color: white;
+}
+
+#hero button{
+    font-size: 2em;
+}
+
+#somos-pro .container{
+    text-align: center;
+    padding: 200px 12px;
+}
+
+#otras-ofertas{
+    background-color: rgb(30, 30, 30);
+    color: white;
+    text-align: center;
+}
+
+#otras-ofertas .container{
+    padding: 150px 12px;
+}
+
+#otras-ofertas h2{
+    margin-top: 0;
+    font-size: 3.2em;
+}
+
+#otras-ofertas p{
+    display: none;
+}
+
+#otras-ofertas .carta{
+    background-position: center center;
+    background-size: cover;
+    padding: 25px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.carta:first-child{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url(img/101161-mobile-legends.jpg);
+}
+
+.carta:nth-child(2){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url(img/98215-counter-strike.png);
+}
+
+
+.carta:nth-child(3){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url(img/120869-the-elder-scrolls-v-skyrim.jpg);
+}
+
+#caracteristicas .container{
+    text-align: center;
+    padding: 200px 12px;
+}
+
+#caracteristicas li{
+    margin: 20px 0px;
+    font-weight: bold;
+}
+
+#final{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 80vh;
+    background-color: rgb(30, 30, 30);
+    color: white;
+}
+
+#final button{
+    font-size: 5vw;
+}
+
+#final h2{
+    font-size: 9vw;
+}
+
+footer{
+    background-color: rgb(230,230,230);
+}
+
+footer p{
+    margin: 0;
+    padding: 12px;
+    color: rgb(100,100 ,100 );
+}
+
+footer .container{
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
 }
